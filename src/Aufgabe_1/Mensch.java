@@ -13,6 +13,7 @@ public class Mensch extends Saeugetier
 
         //%s ist platzhalter für String %d für integer
         //auch getName + "#" + getAlter()...
+        //string format für platzhalter und kann zeichen in eine variable speichern
 
 
     }
