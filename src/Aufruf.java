@@ -2,6 +2,7 @@ import Aufgabe_1.Mensch;
 import Aufgabe_2.Student;
 import Aufgabe_3.Auto;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -47,6 +48,38 @@ public class Aufruf
         {
             System.out.println(i);
         }
+
+        //aufgabe 4
+        System.out.println("\nAufgabe 4:");
+
+        String eins = JOptionPane.showInputDialog("Gib irgendein Wort ein!");
+        String zwei = JOptionPane.showInputDialog("Gib ein zweites Wort ein!");
+        String drei = JOptionPane.showInputDialog("Gib noch ein Wort ein!");
+
+        //String verleichen mit equal, == würde nur den Speicher überprüfen
+
+
+
+        if(eins.equals(zwei))
+        {
+            System.out.println("Die ersten beiden Worte sind gleich.");
+        }
+
+        else if(eins.equals(drei))
+        {
+            System.out.println("Das erste und das letzte Wort sind gleich.");
+        }
+
+        else if(zwei.equals(drei))
+        {
+            System.out.println("Die letzten beiden Worte sind gleich.");
+        }
+
+        else
+        {
+            System.out.println("Keine der Wörter sind dieselben");
+        }
+
 
 
 
