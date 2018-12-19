@@ -13,7 +13,7 @@ public class Student extends Mensch
     }
 
     @Override
-    public void Status()
+    public void status()
     {
         System.out.println("Es handelt sich um einen Studenten. Er/Sie  heißt " + getVorname() + " " + getNachname() + " und ist " + getAlter() + " Jahre alt. Die Martrikelnummer ist " + getMartrikelnummer() + ". Der Student studiert " + getStudgang() + ".");
 

@@ -15,7 +15,7 @@ public class Mensch
     }
 
     //methode status gibt auf der Konsole aus
-    public void Status()
+    public void status()
     {
         System.out.println("Es handelt sich um einen Menschen. Er/Sie  heißt " + getVorname() + " " + getNachname() + " und ist " + getAlter() + " Jahre alt.");
 

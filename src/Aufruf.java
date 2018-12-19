@@ -21,10 +21,19 @@ public class Aufruf
         //Aufgabe 2
         System.out.println("\nAufgabe 2:");
         Aufgabe_2.Mensch larissa = new Aufgabe_2.Mensch("Larissa", "Blachfelder", 19);
-        larissa.Status();
+        larissa.status();
 
         Student larissa2 = new Student("Larissa", "Blachfelder", 19, 1810653996, "Web Business & Technology");
-        larissa2.Status();
+        larissa2.status();
+
+        //richtig
+        Aufgabe_2.Mensch larissa3 = new Aufgabe_2.Mensch("Larissa", "Blachfelder", 19);
+        larissa.status();
+
+        larissa3 = new Student("Larissa", "Blachfelder", 19, 1810653996, "Web Business & Technology");
+        larissa3.status();
+
+
 
         //Aufgabe 3
         System.out.println("\nAufgabe 3:");
@@ -62,17 +71,17 @@ public class Aufruf
 
         if(eins.equals(zwei))
         {
-            System.out.println("Die ersten beiden Worte sind gleich.");
+            System.out.println("Mindestens zwei der beiden sind gleich.");
         }
 
         else if(eins.equals(drei))
         {
-            System.out.println("Das erste und das letzte Wort sind gleich.");
+            System.out.println("Mindestens zwei der beiden sind gleich.");
         }
 
         else if(zwei.equals(drei))
         {
-            System.out.println("Die letzten beiden Worte sind gleich.");
+            System.out.println("Mindestens zwei der beiden sind gleich.");
         }
 
         else

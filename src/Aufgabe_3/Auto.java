@@ -64,14 +64,14 @@ public class Auto extends Fahrzeug implements Comparable<Auto>
         this.airbag = airbag;
     }
 
-    //aufgabe 6 Methode überschreiben
+    //aufgabe 6 Methode überschreiben Übung
 
     @Override
     public String toString(){
         return "Mein Auto hat "+this.getPs()+" PS und fährt mit "+this.getGeschwindigkeit()+" km/h";
     }
 
-
+//aufgabe 3 Leistungsbeurteilung
     @Override
     public int compareTo(Auto o)
     {
